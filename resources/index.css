@@ -1,0 +1,110 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header nav {
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+nav img {
+  margin-left: 10px;
+  height: 50px;
+  padding: 10px;
+}
+
+nav li {
+  text-decoration: underline;
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: seashell;
+}
+
+nav ul {
+  margin-right: 20px;
+}
+
+main {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1eroukc*_ga*NTQ0MTM3ODQxNS4xNzAxMDY4NjQw*_ga_3LRZM6TM9L*MTcxMDc2NDc5MC41Ny4xLjE3MTA3Njc3NjEuMC4wLjA.");
+  margin-top: 69px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-statement {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+}
+
+.tea-of-month {
+  text-align: center;
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.tea-of-month img {
+  width: 300px;
+  height: 200px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.location-section {
+  margin: 0 auto;
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*vwiz7l*_ga*NTQ0MTM3ODQxNS4xNzAxMDY4NjQw*_ga_3LRZM6TM9L*MTcxMDc2NDc5MC41Ny4xLjE3MTA3Njc3NjEuMC4wLjA.");
+  background-position: center;
+}
+
+.location-section h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 30px;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+}
+.store-location {
+  background-color: black;
+  width: 300px;
+  margin: 5px 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 0px;
+}
